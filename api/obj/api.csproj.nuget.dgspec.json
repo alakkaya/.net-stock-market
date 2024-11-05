@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ali/Desktop/stock market/api/api.csproj": {}
+    "/Users/ali/Desktop/.NET CORE HW/api/api.csproj": {}
   },
   "projects": {
-    "/Users/ali/Desktop/stock market/api/api.csproj": {
+    "/Users/ali/Desktop/.NET CORE HW/api/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ali/Desktop/stock market/api/api.csproj",
+        "projectUniqueName": "/Users/ali/Desktop/.NET CORE HW/api/api.csproj",
         "projectName": "api",
-        "projectPath": "/Users/ali/Desktop/stock market/api/api.csproj",
+        "projectPath": "/Users/ali/Desktop/.NET CORE HW/api/api.csproj",
         "packagesPath": "/Users/ali/.nuget/packages/",
-        "outputPath": "/Users/ali/Desktop/stock market/api/obj/",
+        "outputPath": "/Users/ali/Desktop/.NET CORE HW/api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ali/.nuget/NuGet/NuGet.Config"
@@ -46,6 +46,22 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
